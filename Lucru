@@ -1,0 +1,573 @@
+Generating clink initial settings in "C:\Java\cmder\config\settings"
+Additional *.lua files in "C:\Java\cmder\config" are loaded on startup.
+Creating initial user-aliases store in "C:\Java\cmder\config\user-aliases.cmd"...
+        1 file(s) copied.
+Creating user startup file: "C:\Java\cmder\config\user-profile.cmd"
+
+C:\Users\dobridorin
+λ cd ideaprojects
+
+C:\Users\dobridorin\IdeaProjects
+λ cd git
+
+C:\Users\dobridorin\IdeaProjects\GIT
+λ dir
+ Volume in drive C is Windows
+ Volume Serial Number is 6C54-5F2D
+
+ Directory of C:\Users\dobridorin\IdeaProjects\GIT
+
+01.04.2018  13:36    <DIR>          .
+01.04.2018  13:36    <DIR>          ..
+01.04.2018  13:36    <DIR>          Nr prime
+01.04.2018  13:36    <DIR>          NrPrimen
+01.04.2018  13:36    <DIR>          Numar sa afiseze numele lunii
+01.04.2018  13:36    <DIR>          numarul mai mare din 5 numere
+01.04.2018  13:36    <DIR>          Numerele naturale si prime
+01.04.2018  13:36    <DIR>          TICTAETOE
+               0 File(s)              0 bytes
+               8 Dir(s)  47.223.980.032 bytes free
+
+C:\Users\dobridorin\IdeaProjects\GIT
+λ git config -- global user.name"Dobri Dorin"
+fatal: not in a git directory
+
+C:\Users\dobridorin\IdeaProjects\GIT
+λ git config -- global user.name "Dobri Dorin"
+fatal: not in a git directory
+
+C:\Users\dobridorin\IdeaProjects\GIT
+λ git config -- global user.name "dobridorin"
+fatal: not in a git directory
+
+C:\Users\dobridorin\IdeaProjects\GIT
+λ git config --global user.name "Dorin Dobri"
+
+C:\Users\dobridorin\IdeaProjects\GIT
+λ git config --global user.mail "dobridorin@gmail.com"
+
+C:\Users\dobridorin\IdeaProjects\GIT
+λ git init
+Initialized empty Git repository in C:/Users/dobridorin/IdeaProjects/GIT/.git/
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Afiseaza ziua/
+        Cel mai mare numar din 5/
+        Cinci numere suma media si max/
+        CitireNumere/
+        MainArrayss/
+        Nr prime/
+        NrPrimen/
+        Numar sa afiseze numele lunii/
+        Numerele naturale si prime/
+        PrimeNumbers/
+        PrimeleNNumerePrimeMaiMariCam/
+        Proiect 2/
+        Proiect 3/
+        Proiect Luna an zi Cu case/
+        Project1/
+        Suma Nr pentru pare/
+        Suma de 5 numere mai mici de 100/
+        TICTACTOE/
+        TICTAC_TOE/
+        TICTAETOE/
+        citire a 5 numere/
+        numarul mai mare din 5 numere/
+        returneaza lunile si zilele dintr-un an/
+        tema/
+        untitled/
+        untitled1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git add PrimeNumbers/
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   PrimeNumbers/.idea/description.html
+        new file:   PrimeNumbers/.idea/misc.xml
+        new file:   PrimeNumbers/.idea/modules.xml
+        new file:   PrimeNumbers/.idea/project-template.xml
+        new file:   PrimeNumbers/.idea/workspace.xml
+        new file:   PrimeNumbers/PrimeNumbers.iml
+        new file:   PrimeNumbers/out/production/PrimeNumbers/ro/SDA/Main.class
+        new file:   PrimeNumbers/src/ro/SDA/Main.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Afiseaza ziua/
+        Cel mai mare numar din 5/
+        Cinci numere suma media si max/
+        CitireNumere/
+        MainArrayss/
+        Nr prime/
+        NrPrimen/
+        Numar sa afiseze numele lunii/
+        Numerele naturale si prime/
+        PrimeleNNumerePrimeMaiMariCam/
+        Proiect 2/
+        Proiect 3/
+        Proiect Luna an zi Cu case/
+        Project1/
+        Suma Nr pentru pare/
+        Suma de 5 numere mai mici de 100/
+        TICTACTOE/
+        TICTAC_TOE/
+        TICTAETOE/
+        citire a 5 numere/
+        numarul mai mare din 5 numere/
+        returneaza lunile si zilele dintr-un an/
+        tema/
+        untitled/
+        untitled1/
+
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git add -A
+warning: LF will be replaced by CRLF in Proiect 2/.idea/misc.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Proiect 2/.idea/modules.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Proiect 2/.idea/workspace.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Proiect 2/Proiect 2.iml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Proiect 3/.idea/misc.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Proiect 3/.idea/modules.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Proiect 3/.idea/workspace.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Proiect 3/Proiect 3.iml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Project1/.idea/misc.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Project1/.idea/modules.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Project1/.idea/workspace.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Project1/Project1.iml.
+The file will have its original line endings in your working directory.
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git add --help
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Afiseaza ziua/.idea/description.html
+        new file:   Afiseaza ziua/.idea/misc.xml
+        new file:   Afiseaza ziua/.idea/modules.xml
+        new file:   Afiseaza ziua/.idea/project-template.xml
+        new file:   Afiseaza ziua/.idea/workspace.xml
+        new file:   Afiseaza ziua/Afiseaza ziua.iml
+        new file:   Afiseaza ziua/src/com/company/Main.java
+        new file:   Cel mai mare numar din 5/.idea/description.html
+        new file:   Cel mai mare numar din 5/.idea/misc.xml
+        new file:   Cel mai mare numar din 5/.idea/modules.xml
+        new file:   Cel mai mare numar din 5/.idea/project-template.xml
+        new file:   Cel mai mare numar din 5/.idea/workspace.xml
+        new file:   Cel mai mare numar din 5/Cel mai mare numar din 5.iml
+        new file:   Cel mai mare numar din 5/out/production/Cel mai mare numar din 5/com/company/Main.class
+        new file:   Cel mai mare numar din 5/src/com/company/Main.java
+        new file:   Cinci numere suma media si max/.idea/description.html
+        new file:   Cinci numere suma media si max/.idea/misc.xml
+        new file:   Cinci numere suma media si max/.idea/modules.xml
+        new file:   Cinci numere suma media si max/.idea/project-template.xml
+        new file:   Cinci numere suma media si max/.idea/workspace.xml
+        new file:   Cinci numere suma media si max/Cinci numere suma media si max.iml
+        new file:   Cinci numere suma media si max/out/production/Cinci numere suma media si max/ro/SDA/Main.class
+        new file:   Cinci numere suma media si max/src/ro/SDA/Main.java
+        new file:   CitireNumere/.idea/description.html
+        new file:   CitireNumere/.idea/misc.xml
+        new file:   CitireNumere/.idea/modules.xml
+        new file:   CitireNumere/.idea/project-template.xml
+        new file:   CitireNumere/.idea/workspace.xml
+        new file:   CitireNumere/CitireNumere.iml
+        new file:   CitireNumere/out/production/CitireNumere/com/company/Main.class
+        new file:   CitireNumere/src/com/company/Main.java
+        new file:   MainArrayss/.idea/description.html
+        new file:   MainArrayss/.idea/misc.xml
+        new file:   MainArrayss/.idea/modules.xml
+        new file:   MainArrayss/.idea/project-template.xml
+        new file:   MainArrayss/.idea/workspace.xml
+        new file:   MainArrayss/MainArrayss.iml
+        new file:   MainArrayss/out/production/MainArrayss/ro/sda/MainArrayss.class
+        new file:   MainArrayss/src/ro/SDA/Main.java
+        new file:   Nr prime/.idea/description.html
+        new file:   Nr prime/.idea/misc.xml
+        new file:   Nr prime/.idea/modules.xml
+        new file:   Nr prime/.idea/project-template.xml
+        new file:   Nr prime/.idea/workspace.xml
+        new file:   Nr prime/Nr prime.iml
+        new file:   Nr prime/src/ro/SDA/Main.java
+        new file:   NrPrimen/.idea/description.html
+        new file:   NrPrimen/.idea/misc.xml
+        new file:   NrPrimen/.idea/modules.xml
+        new file:   NrPrimen/.idea/project-template.xml
+        new file:   NrPrimen/.idea/workspace.xml
+        new file:   NrPrimen/NrPrimen.iml
+        new file:   NrPrimen/src/ro/SDA/Main.java
+        new file:   Numar sa afiseze numele lunii/.idea/description.html
+        new file:   Numar sa afiseze numele lunii/.idea/misc.xml
+        new file:   Numar sa afiseze numele lunii/.idea/modules.xml
+        new file:   Numar sa afiseze numele lunii/.idea/project-template.xml
+        new file:   Numar sa afiseze numele lunii/.idea/workspace.xml
+        new file:   Numar sa afiseze numele lunii/Numar sa afiseze numele lunii.iml
+        new file:   Numar sa afiseze numele lunii/out/production/Numar sa afiseze numele lunii/ro/SDA/Main.class
+        new file:   Numar sa afiseze numele lunii/src/ro/SDA/Main.java
+        new file:   Numerele naturale si prime/.idea/description.html
+        new file:   Numerele naturale si prime/.idea/misc.xml
+        new file:   Numerele naturale si prime/.idea/modules.xml
+        new file:   Numerele naturale si prime/.idea/project-template.xml
+        new file:   Numerele naturale si prime/.idea/workspace.xml
+        new file:   Numerele naturale si prime/Numerele naturale si prime.iml
+        new file:   Numerele naturale si prime/src/ro/SDA/Main.java
+        new file:   PrimeNumbers/.idea/description.html
+        new file:   PrimeNumbers/.idea/misc.xml
+        new file:   PrimeNumbers/.idea/modules.xml
+        new file:   PrimeNumbers/.idea/project-template.xml
+        new file:   PrimeNumbers/.idea/workspace.xml
+        new file:   PrimeNumbers/PrimeNumbers.iml
+        new file:   PrimeNumbers/out/production/PrimeNumbers/ro/SDA/Main.class
+        new file:   PrimeNumbers/src/ro/SDA/Main.java
+        new file:   PrimeleNNumerePrimeMaiMariCam/.idea/description.html
+        new file:   PrimeleNNumerePrimeMaiMariCam/.idea/misc.xml
+        new file:   PrimeleNNumerePrimeMaiMariCam/.idea/modules.xml
+        new file:   PrimeleNNumerePrimeMaiMariCam/.idea/project-template.xml
+        new file:   PrimeleNNumerePrimeMaiMariCam/.idea/workspace.xml
+        new file:   PrimeleNNumerePrimeMaiMariCam/PrimeleNNumerePrimeMaiMariCam.iml
+        new file:   PrimeleNNumerePrimeMaiMariCam/src/ro/SDA/Main.java
+        new file:   Proiect 2/.idea/misc.xml
+        new file:   Proiect 2/.idea/modules.xml
+        new file:   Proiect 2/.idea/workspace.xml
+        new file:   Proiect 2/Proiect 2.iml
+        new file:   Proiect 2/out/production/Proiect 2/ro/SDA/Hello.class
+        new file:   Proiect 2/src/ro/SDA/Hello.java
+        new file:   Proiect 3/.idea/misc.xml
+        new file:   Proiect 3/.idea/modules.xml
+        new file:   Proiect 3/.idea/workspace.xml
+        new file:   Proiect 3/Proiect 3.iml
+        new file:   Proiect 3/src/CitireNumere.java
+        new file:   Proiect Luna an zi Cu case/.idea/description.html
+        new file:   Proiect Luna an zi Cu case/.idea/misc.xml
+        new file:   Proiect Luna an zi Cu case/.idea/modules.xml
+        new file:   Proiect Luna an zi Cu case/.idea/project-template.xml
+        new file:   Proiect Luna an zi Cu case/.idea/workspace.xml
+        new file:   Proiect Luna an zi Cu case/Proiect Luna an zi Cu case.iml
+        new file:   Proiect Luna an zi Cu case/out/production/Proiect Luna an zi Cu case/com/company/Main.class
+        new file:   Proiect Luna an zi Cu case/src/com/company/Main.java
+        new file:   Project1/.idea/libraries/org_thymeleaf_thymeleaf_Release.xml
+        new file:   Project1/.idea/misc.xml
+        new file:   Project1/.idea/modules.xml
+        new file:   Project1/.idea/workspace.xml
+        new file:   Project1/Project1.iml
+        new file:   Project1/out/production/Project1/main/Main.class
+        new file:   Project1/out/production/Project1/main/Test1.class
+        new file:   Project1/src/main/Homerwork1.java
+        new file:   Project1/src/main/Main.java
+        new file:   Project1/src/main/Test1.java
+        new file:   Suma Nr pentru pare/.idea/description.html
+        new file:   Suma Nr pentru pare/.idea/misc.xml
+        new file:   Suma Nr pentru pare/.idea/modules.xml
+        new file:   Suma Nr pentru pare/.idea/project-template.xml
+        new file:   Suma Nr pentru pare/.idea/workspace.xml
+        new file:   Suma Nr pentru pare/Suma Nr pentru pare.iml
+        new file:   Suma Nr pentru pare/out/production/Suma Nr pentru pare/com/company/Main.class
+        new file:   Suma Nr pentru pare/src/com/company/Main.java
+        new file:   Suma de 5 numere mai mici de 100/.idea/description.html
+        new file:   Suma de 5 numere mai mici de 100/.idea/misc.xml
+        new file:   Suma de 5 numere mai mici de 100/.idea/modules.xml
+        new file:   Suma de 5 numere mai mici de 100/.idea/project-template.xml
+        new file:   Suma de 5 numere mai mici de 100/.idea/workspace.xml
+        new file:   Suma de 5 numere mai mici de 100/Suma de 5 numere mai mici de 100.iml
+        new file:   Suma de 5 numere mai mici de 100/out/production/Suma de 5 numere mai mici de 100/com/company/Main.class
+        new file:   Suma de 5 numere mai mici de 100/src/com/company/Main.java
+        new file:   TICTACTOE/.idea/.name
+        new file:   TICTACTOE/.idea/description.html
+        new file:   TICTACTOE/.idea/misc.xml
+        new file:   TICTACTOE/.idea/modules.xml
+        new file:   TICTACTOE/.idea/project-template.xml
+        new file:   TICTACTOE/.idea/workspace.xml
+        new file:   TICTACTOE/TICTACTOE.iml
+        new file:   TICTACTOE/out/production/ABC/ro/SDA/Main.class
+        new file:   TICTACTOE/out/production/TICTACTOE/ro/SDA/Main.class
+        new file:   TICTACTOE/src/ro/SDA/Main.java
+        new file:   TICTAC_TOE/.idea/description.html
+        new file:   TICTAC_TOE/.idea/misc.xml
+        new file:   TICTAC_TOE/.idea/modules.xml
+        new file:   TICTAC_TOE/.idea/project-template.xml
+        new file:   TICTAC_TOE/.idea/workspace.xml
+        new file:   TICTAC_TOE/TICTAC_TOE.iml
+        new file:   TICTAC_TOE/src/ro/SDA/Main.java
+        new file:   TICTAETOE/.idea/workspace.xml
+        new file:   citire a 5 numere/.idea/description.html
+        new file:   citire a 5 numere/.idea/misc.xml
+        new file:   citire a 5 numere/.idea/modules.xml
+        new file:   citire a 5 numere/.idea/project-template.xml
+        new file:   citire a 5 numere/.idea/workspace.xml
+        new file:   citire a 5 numere/citire a 5 numere.iml
+        new file:   citire a 5 numere/out/production/citire a 5 numere/ro/SDA/Invers.class
+        new file:   citire a 5 numere/out/production/citire a 5 numere/ro/SDA/Main.class
+        new file:   citire a 5 numere/src/ro/SDA/Invers.java
+        new file:   citire a 5 numere/src/ro/SDA/Main.java
+        new file:   numarul mai mare din 5 numere/.idea/description.html
+        new file:   numarul mai mare din 5 numere/.idea/misc.xml
+        new file:   numarul mai mare din 5 numere/.idea/modules.xml
+        new file:   numarul mai mare din 5 numere/.idea/project-template.xml
+        new file:   numarul mai mare din 5 numere/.idea/workspace.xml
+        new file:   numarul mai mare din 5 numere/numarul mai mare din 5 numere.iml
+        new file:   numarul mai mare din 5 numere/out/production/numarul mai mare din 5 numere/com/company/Main.class
+        new file:   numarul mai mare din 5 numere/src/com/company/Main.java
+        new file:   returneaza lunile si zilele dintr-un an/.idea/description.html
+        new file:   returneaza lunile si zilele dintr-un an/.idea/misc.xml
+        new file:   returneaza lunile si zilele dintr-un an/.idea/modules.xml
+        new file:   returneaza lunile si zilele dintr-un an/.idea/project-template.xml
+        new file:   returneaza lunile si zilele dintr-un an/.idea/workspace.xml
+        new file:   returneaza lunile si zilele dintr-un an/out/production/returneaza lunile si zilele dintr-un an/com/company/Main.class
+        new file:   returneaza lunile si zilele dintr-un an/returneaza lunile si zilele dintr-un an.iml
+        new file:   returneaza lunile si zilele dintr-un an/src/com/company/Main.java
+        new file:   tema/.idea/description.html
+        new file:   tema/.idea/misc.xml
+        new file:   tema/.idea/modules.xml
+        new file:   tema/.idea/project-template.xml
+        new file:   tema/.idea/workspace.xml
+        new file:   tema/src/MainMatrix.java
+        new file:   tema/src/ro/SDA/Main.java
+        new file:   tema/src/ro/SDA/tictactoe.java
+        new file:   tema/tema.iml
+        new file:   untitled/.idea/description.html
+        new file:   untitled/.idea/misc.xml
+        new file:   untitled/.idea/modules.xml
+        new file:   untitled/.idea/project-template.xml
+        new file:   untitled/.idea/workspace.xml
+        new file:   untitled/src/com/company/Main.java
+        new file:   untitled/untitled.iml
+        new file:   untitled1/.idea/description.html
+        new file:   untitled1/.idea/misc.xml
+        new file:   untitled1/.idea/modules.xml
+        new file:   untitled1/.idea/project-template.xml
+        new file:   untitled1/.idea/workspace.xml
+        new file:   untitled1/out/production/untitled1/ro/SDA/Main.class
+        new file:   untitled1/src/ro/SDA/Main.java
+        new file:   untitled1/untitled1.iml
+
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git reset
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ get status
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        Afiseaza ziua/
+        Cel mai mare numar din 5/
+        Cinci numere suma media si max/
+        CitireNumere/
+        MainArrayss/
+        Nr prime/
+        NrPrimen/
+        Numar sa afiseze numele lunii/
+        Numerele naturale si prime/
+        PrimeNumbers/
+        PrimeleNNumerePrimeMaiMariCam/
+        Proiect 2/
+        Proiect 3/
+        Proiect Luna an zi Cu case/
+        Project1/
+        Suma Nr pentru pare/
+        Suma de 5 numere mai mici de 100/
+        TICTACTOE/
+        TICTAC_TOE/
+        citire a 5 numere/
+        numarul mai mare din 5 numere/
+        returneaza lunile si zilele dintr-un an/
+        tema/
+        untitled/
+        untitled1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git add -A
+warning: LF will be replaced by CRLF in Proiect 2/Proiect 2.iml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Proiect 3/Proiect 3.iml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Project1/Project1.iml.
+The file will have its original line endings in your working directory.
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git add -A
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git commit -m "initial commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'dobridorin@DESKTOP-OTMNL4M.(none)')
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git config --global user.email "dobridorin@gmail.com"
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git commit -m "initial commit"
+[master (root-commit) 49d00ec] initial commit
+ 75 files changed, 1453 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Afiseaza ziua/Afiseaza ziua.iml
+ create mode 100644 Afiseaza ziua/src/com/company/Main.java
+ create mode 100644 Cel mai mare numar din 5/Cel mai mare numar din 5.iml
+ create mode 100644 Cel mai mare numar din 5/out/production/Cel mai mare numar din 5/com/company/Main.class
+ create mode 100644 Cel mai mare numar din 5/src/com/company/Main.java
+ create mode 100644 Cinci numere suma media si max/Cinci numere suma media si max.iml
+ create mode 100644 Cinci numere suma media si max/out/production/Cinci numere suma media si max/ro/SDA/Main.class
+ create mode 100644 Cinci numere suma media si max/src/ro/SDA/Main.java
+ create mode 100644 CitireNumere/CitireNumere.iml
+ create mode 100644 CitireNumere/out/production/CitireNumere/com/company/Main.class
+ create mode 100644 CitireNumere/src/com/company/Main.java
+ create mode 100644 MainArrayss/MainArrayss.iml
+ create mode 100644 MainArrayss/out/production/MainArrayss/ro/sda/MainArrayss.class
+ create mode 100644 MainArrayss/src/ro/SDA/Main.java
+ create mode 100644 Nr prime/Nr prime.iml
+ create mode 100644 Nr prime/src/ro/SDA/Main.java
+ create mode 100644 NrPrimen/NrPrimen.iml
+ create mode 100644 NrPrimen/src/ro/SDA/Main.java
+ create mode 100644 Numar sa afiseze numele lunii/Numar sa afiseze numele lunii.iml
+ create mode 100644 Numar sa afiseze numele lunii/out/production/Numar sa afiseze numele lunii/ro/SDA/Main.class
+ create mode 100644 Numar sa afiseze numele lunii/src/ro/SDA/Main.java
+ create mode 100644 Numerele naturale si prime/Numerele naturale si prime.iml
+ create mode 100644 Numerele naturale si prime/src/ro/SDA/Main.java
+ create mode 100644 PrimeNumbers/PrimeNumbers.iml
+ create mode 100644 PrimeNumbers/out/production/PrimeNumbers/ro/SDA/Main.class
+ create mode 100644 PrimeNumbers/src/ro/SDA/Main.java
+ create mode 100644 PrimeleNNumerePrimeMaiMariCam/PrimeleNNumerePrimeMaiMariCam.iml
+ create mode 100644 PrimeleNNumerePrimeMaiMariCam/src/ro/SDA/Main.java
+ create mode 100644 Proiect 2/Proiect 2.iml
+ create mode 100644 Proiect 2/out/production/Proiect 2/ro/SDA/Hello.class
+ create mode 100644 Proiect 2/src/ro/SDA/Hello.java
+ create mode 100644 Proiect 3/Proiect 3.iml
+ create mode 100644 Proiect 3/src/CitireNumere.java
+ create mode 100644 Proiect Luna an zi Cu case/Proiect Luna an zi Cu case.iml
+ create mode 100644 Proiect Luna an zi Cu case/out/production/Proiect Luna an zi Cu case/com/company/Main.class
+ create mode 100644 Proiect Luna an zi Cu case/src/com/company/Main.java
+ create mode 100644 Project1/Project1.iml
+ create mode 100644 Project1/out/production/Project1/main/Main.class
+ create mode 100644 Project1/out/production/Project1/main/Test1.class
+ create mode 100644 Project1/src/main/Homerwork1.java
+ create mode 100644 Project1/src/main/Main.java
+ create mode 100644 Project1/src/main/Test1.java
+ create mode 100644 Suma Nr pentru pare/Suma Nr pentru pare.iml
+ create mode 100644 Suma Nr pentru pare/out/production/Suma Nr pentru pare/com/company/Main.class
+ create mode 100644 Suma Nr pentru pare/src/com/company/Main.java
+ create mode 100644 Suma de 5 numere mai mici de 100/Suma de 5 numere mai mici de 100.iml
+ create mode 100644 Suma de 5 numere mai mici de 100/out/production/Suma de 5 numere mai mici de 100/com/company/Main.class
+ create mode 100644 Suma de 5 numere mai mici de 100/src/com/company/Main.java
+ create mode 100644 TICTACTOE/TICTACTOE.iml
+ create mode 100644 TICTACTOE/out/production/ABC/ro/SDA/Main.class
+ create mode 100644 TICTACTOE/out/production/TICTACTOE/ro/SDA/Main.class
+ create mode 100644 TICTACTOE/src/ro/SDA/Main.java
+ create mode 100644 TICTAC_TOE/TICTAC_TOE.iml
+ create mode 100644 TICTAC_TOE/src/ro/SDA/Main.java
+ create mode 100644 citire a 5 numere/citire a 5 numere.iml
+ create mode 100644 citire a 5 numere/out/production/citire a 5 numere/ro/SDA/Invers.class
+ create mode 100644 citire a 5 numere/out/production/citire a 5 numere/ro/SDA/Main.class
+ create mode 100644 citire a 5 numere/src/ro/SDA/Invers.java
+ create mode 100644 citire a 5 numere/src/ro/SDA/Main.java
+ create mode 100644 numarul mai mare din 5 numere/numarul mai mare din 5 numere.iml
+ create mode 100644 numarul mai mare din 5 numere/out/production/numarul mai mare din 5 numere/com/company/Main.class
+ create mode 100644 numarul mai mare din 5 numere/src/com/company/Main.java
+ create mode 100644 returneaza lunile si zilele dintr-un an/out/production/returneaza lunile si zilele dintr-un an/com/company/Main.class
+ create mode 100644 returneaza lunile si zilele dintr-un an/returneaza lunile si zilele dintr-un an.iml
+ create mode 100644 returneaza lunile si zilele dintr-un an/src/com/company/Main.java
+ create mode 100644 tema/src/MainMatrix.java
+ create mode 100644 tema/src/ro/SDA/Main.java
+ create mode 100644 tema/src/ro/SDA/tictactoe.java
+ create mode 100644 tema/tema.iml
+ create mode 100644 untitled/src/com/company/Main.java
+ create mode 100644 untitled/untitled.iml
+ create mode 100644 untitled1/out/production/untitled1/ro/SDA/Main.class
+ create mode 100644 untitled1/src/ro/SDA/Main.java
+ create mode 100644 untitled1/untitled1.iml
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git remote add origin https://github.com/dobridorin/MYSDAPROJECT.git
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ git push -u origin master
+Counting objects: 230, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (90/90), done.
+Writing objects: 100% (230/230), 35.15 KiB | 1.03 MiB/s, done.
+Total 230 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas: 100% (12/12), done.
+To https://github.com/dobridorin/MYSDAPROJECT.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\dobridorin\IdeaProjects\GIT (master -> origin)
+λ cd..
+
+C:\Users\dobridorin\IdeaProjects
+λ git clone https://github.com/dobridorin/MYSDAPROJECT_1.git
+Cloning into 'MYSDAPROJECT_1'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\dobridorin\IdeaProjects
+λ git clone https://github.com/ionutab/MySDAProjects2.git
+Cloning into 'MySDAProjects2'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\dobridorin\IdeaProjects
+λ
